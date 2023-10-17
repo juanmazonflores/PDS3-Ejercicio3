@@ -1,5 +1,5 @@
 <template>
-    <hello-world/>
+  <hello-world msg="Ejercicio 3"/>
   <hr/>
   <contador-simple/>
   <hr/>
