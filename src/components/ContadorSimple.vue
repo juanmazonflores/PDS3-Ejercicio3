@@ -1,8 +1,8 @@
 <template>
     <h2>Contador simple</h2>
     <h3>{{ counterComputed }}</h3>
-    <button @click="increment">Incrementar</button>
-    <button @click="decrement">Decrementar</button>
+    <button class="btn-action" @click="increment">Incrementar</button>
+    <button class="btn-action" @click="decrement">Decrementar</button>
 </template>
 
 <script>

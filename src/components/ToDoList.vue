@@ -8,7 +8,7 @@
         v-model="task"
         placeholder="Escribe la tarea"
       />
-      <button @click="submitTask">
+      <button class="btn-submit" @click="submitTask">
         Agregar Tarea
       </button>
     </div>
